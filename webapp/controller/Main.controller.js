@@ -7,7 +7,7 @@ sap.ui.define([
 	return Controller.extend("hint.controller.Main", {
 		onInit: function() {
 			this._message = []; //массив для сообщений
-			this._message.push(["Текст сообщения 1", this.getView().byId("iconHint").getId()]);
+			this._message.push(["Привет от NICKCODE.RU", this.getView().byId("iconHint").getId()]);
 		},
 
 		onAfterRendering: function() {
